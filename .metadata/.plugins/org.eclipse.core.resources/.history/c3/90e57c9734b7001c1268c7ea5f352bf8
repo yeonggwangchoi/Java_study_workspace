@@ -1,0 +1,12 @@
+package JavaStudy;
+
+public class StudentmMain {
+	public static void main(String [] arg) {
+		Student st1=new Student();
+		
+		st1.printage();
+		st1.printsttnum();
+		st1.printadresss();
+		st1.printphonenum();
+	}
+}

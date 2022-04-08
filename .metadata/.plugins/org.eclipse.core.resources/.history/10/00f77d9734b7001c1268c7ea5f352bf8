@@ -1,0 +1,19 @@
+package JavaStudy;
+
+public class Student {
+	int age=24;
+	String studentnum="18350201" , adress="경기도 안성시", phonenum="010-9943-7811";
+	
+	public void printage() {
+		System.out.println("나이 : "+age);
+	}
+	public void printsttnum() {
+		System.out.println("학번 :  "+studentnum);
+	}
+	public void printadresss() {
+		System.out.println("주소 : "+adress);
+	}
+	public void printphonenum() {
+		System.out.println("전화번호 : "+phonenum);
+	}	
+}

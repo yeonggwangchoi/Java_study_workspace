@@ -1,0 +1,18 @@
+package JavaStudy;
+
+public class PersonMain {
+	
+	public static void main(String [] args) {
+		Person per1 = new Person();
+		
+		per1.age=23;
+		per1.name="최영광";
+		per1.address="경기도 안성시";
+		per1.sex=true;
+		
+		per1.printAge();
+		per1.printName();
+		per1.printAddress();
+		per1.printSex();
+	}
+}
